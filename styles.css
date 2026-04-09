@@ -1,0 +1,33 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #46b956;
+  color: white;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
