@@ -1,0 +1,52 @@
+.aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeHeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.aboutMeInfoSubContainer {
+    display: inherit;
+    flex-direction: inherit;
+    margin-bottom: 1rem;
+}
+
+.aboutMeHobbySubContainer {
+    display: inherit;
+    flex-direction: inherit;
+    margin-bottom: 1rem;
+}
+
+.aboutMeHardwareSubContainer {
+    display: inherit;
+    flex-direction: inherit;
+    margin-bottom: 1rem;
+}
+
+.aboutMeTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    text-align: left;
+}
+
+.aboutMePictureContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: underline;
+}

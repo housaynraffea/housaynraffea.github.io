@@ -1,0 +1,79 @@
+.homeProjectsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeProjectsHeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeProjectsItemsContainer {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.homeProjectsItemContainer {
+    display: inherit;
+    background-color: #222;
+    border-radius: 15px;
+    width: 47rem;
+    padding: 0.5rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.homeProjectsItemThumbnailContainer img {
+    display: inherit;
+    border-radius: 10px;
+    align-items: center;
+    height: 10rem;
+}
+
+#left {
+    margin-right: auto;
+}
+
+#right {
+    margin-left: auto;
+}
+
+.homeProjectsItemInfoContainer {
+    display: inherit;
+    flex-direction: column;
+}
+
+.homeProjectsItemInfoHeaderContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.homeProjectsItemInfoDescriptionContainer {
+    text-align: left;
+    width: 35rem;
+}
+
+a {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    gap: inherit;
+    text-align: inherit;
+    width: inherit;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.homeProjectsItemContainer:hover {
+    background-color: green;
+
+    transition: all 0.1s ease-in-out;
+}
